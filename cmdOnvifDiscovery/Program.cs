@@ -34,7 +34,7 @@ namespace cmdOnvifDiscovery
                 {
                     string uri = item.OriginalString;
                     string host = item.Host;
-                    lst.Add(host + ": " + uri.ToString());
+                    lst.Add(host + ": " + uri);
                     
                 }
             }
